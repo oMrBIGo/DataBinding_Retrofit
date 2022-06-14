@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, "Error is fetching data", Toast.LENGTH_LONG).show()
             }
         })
-        viewModel.makeAPICall("thailand")
+        viewModel.makeAPICall("thai")
 
         return  viewModel
     }
