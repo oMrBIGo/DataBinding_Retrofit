@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/nathi/Desktop/Android_Dev/DataBinding_Retrofit/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nathi/Desktop/Android_Dev/DataBinding_Retrofit/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/nathi/Desktop/Android_Dev/DataBinding_Retrofit/app/src/main/res/layout/recyc_row.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/nathi/Desktop/Android_Dev/DataBinding_Retrofit/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/nathi/Desktop/Android_Dev/DataBinding_Retrofit/app/src/main/res/xml/searchable.xml" value="0.1" />
       </map>
     </option>
   </component>
