@@ -16,24 +16,18 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-       // setContentView(R.layout.activity_main)
-
         val viewModel = makeApiCall()
-
         setupBinding(viewModel)
     }
 
     private fun setupBinding(viewModel: MainActivityViewModel) {
-
        val activityMainBinding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         activityMainBinding.setVariable(BR.viewModel, viewModel)
         activityMainBinding.executePendingBindings()
-
         rv.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
             val decoration = DividerItemDecoration(this@MainActivity, VERTICAL)
             addItemDecoration(decoration)
-
         }
     }
 
@@ -49,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
         viewModel.makeAPICall("thai")
-
         return  viewModel
     }
 }
